@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    padding: 15px 0;
+    background-color: #fffcfc;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    border: 0px solid rgb(0, 162, 255);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 80px);
+    background-color: #f7f7f7;
+    padding: 30px 0 10px;
+    box-sizing: border-box;
+}
+
+.address-book-text {
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #42515f;
+    opacity: 1;
+}
+
+.person-count {
+    background-color: #0099ff;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 26px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.add-button {
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    background: #0099ff 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 18px;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.table {
+    width: 80%;
+    margin: 10%;
+    margin-top: 3px;
+    min-width: 800px;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    border: 0px solid green;
+}
+
+td,th {
+    padding: 5px 5px;
+}
+
+th {
+    background: transparent;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing:  0px;
+    color: #5c5c94;
+    opacity: 1;
+    padding: 8px;
+    padding-bottom: 0px;
+}
+
+tr:not(:first-child) {
+    background: #ffffff;
+    border: 1px solid #e3e3e3;
+}
+
+td {
+    text-align: center;
+    font-size:14px;
+    padding: 20px;
+    letter-spacing: 0px;
+    color: #3d3d3d;
+    opacity: 1;
+    border: 0px solid gainsboro;
+}
+
+td img {
+    cursor: pointer;
+}
+/* .Gender{
+    /* display: flex;
+    align-items: start center;  */
+    /* color: rgb(0, 167, 0);
+            display: flex;
+            align-items: flex-end;
+} */ 
